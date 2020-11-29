@@ -87,5 +87,5 @@ Where to log in? [Click on me!](http://miss-api.xyz/aouth)
 |          Description          |                             Returns                            |
 |-------------------------------|----------------------------------------------------------------|
 | `404` - Non-existent endpoint | `{ code: 404, message: "Non-existent endpoint", image: null }` |
-| `401` - Unauthorized          | `{ code: 401, message: "Unauthorized user", image: null }`     |
+| `401` - Inactive API key      | `{ code: 401, message: "Unauthorized user", image: null }`     |
 | `200` - Successfull           | `{ code: 200, message: "", image: <url> }`                     |
