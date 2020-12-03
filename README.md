@@ -1,6 +1,6 @@
 ## 🔗 Base URLs
-ᅠ• Main - **http://miss-api.xyz/** <br>
-ᅠ• API - **http://miss-api.xyz/api** <br>
+ᅠ• Main - **http://miss-api.ml/** <br>
+ᅠ• API - **http://miss-api.ml/api** <br>
 
 <br><br>
 
@@ -8,17 +8,17 @@
 
 Simple request to miss-api:
 ```js
-require("node-fetch")("http://miss-api.xyz/api/v2/cat", {
+require("node-fetch")("http://miss-api.ml/api/v2/cat", {
     headers: {
         "Content-Type": "application/json",
         "Authorization": `User YOUR TOKEN`,
     },
-}).then(x => x.json().then(b => console.log(b)));
+}).then(x => x.json().then(console.log));
 ```
 You can also use our official wrappers to send requests. [miss-api.js (JavaScript)](https://github.com/miss-api-xyz/miss-api.js) / [miss-api.py (Python)](https://github.com/miss-api-xyz/miss-api.py)<br>
 To get API key: <br>
 Log in to the site through your Discord account, and pick up the key that will be given to you. <br>
-Where to log in? [Click on me!](http://miss-api.xyz/aouth)
+Where to log in? [Click on me!](http://miss-api.ml/aouth)
 
 <br><br>
 
