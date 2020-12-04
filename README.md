@@ -1,6 +1,7 @@
 ## 🔗 Base URLs
 ᅠ• Main - **http://miss-api.ml/** <br>
 ᅠ• API - **http://miss-api.ml/api** <br>
+ᅠ• Endpoints - **http://miss-api.ml/endpoints** <br>
 
 <br><br>
 
